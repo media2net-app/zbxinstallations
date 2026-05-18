@@ -1,7 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
 import AboutPage from './AboutPage'
-import ContactPage from './ContactPage'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import Navbar from './Navbar'
@@ -21,7 +20,7 @@ function App() {
           <Route path="/" element={<HomePage t={t} />} />
           <Route path="/servicii" element={<ServicesPage t={t} />} />
           <Route path="/despre-noi" element={<AboutPage t={t} />} />
-          <Route path="/contact" element={<ContactPage t={t} />} />
+          <Route path="/contact" element={<Navigate to="/" replace />} />
           <Route path="/services" element={<Navigate to="/servicii" replace />} />
           <Route path="/about-us" element={<Navigate to="/despre-noi" replace />} />
           <Route path="/diensten" element={<Navigate to="/servicii" replace />} />

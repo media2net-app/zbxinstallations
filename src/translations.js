@@ -5,13 +5,11 @@ export const translations = {
       home: 'Acasa',
       services: 'Servicii',
       about: 'Despre noi',
-      contact: 'Contact',
-      cta: 'Solicita oferta',
       phoneLabel: 'Telefon:',
     },
     footer: {
       line1: 'Echipa tehnica autorizata pentru instalatii complete',
-      line2: 'Servicii · Proiecte · Despre noi · Contact',
+      line2: 'Servicii · Proiecte · Despre noi',
       line3: 'Telefon: +40 741 064 138 · contact@zbxinstallations.com',
       line4: 'Toate drepturile rezervate.',
     },
@@ -21,7 +19,7 @@ export const translations = {
       heroTitle: 'Instalatii sigure, executie rapida, suport real',
       heroCopy:
         'ZBX Installations livreaza solutii complete pentru termice, sanitare, gaze, climatizare si electric, atat pentru locuinte, cat si pentru spatii comerciale.',
-      heroCtaPrimary: 'Solicita oferta gratuita',
+      heroCtaPrimary: 'Sună acum: +40 741 064 138',
       heroCtaSecondary: 'Vezi toate serviciile',
       badges: ['Interventii rapide', 'Echipa autorizata', 'Peste 25 ani experienta'],
       introKicker: 'Expertiza tehnica verificata',
@@ -40,11 +38,22 @@ export const translations = {
       ],
       trustCta: 'Afla mai multe despre noi',
       trustImageAlt: 'Echipa ZBX Installations',
-      testimonialKicker: 'Recomandare client',
-      testimonialTitle: '“Interventie rapida, echipa serioasa si lucrare impecabila.”',
-      testimonialText:
-        '“Am colaborat cu ZBX Installations pentru schimbarea centralei si modernizarea instalatiei sanitare. Totul a fost executat la timp, cu explicatii clare si comunicare foarte buna.”',
-      testimonialAuthor: '— Client ZBX Installations, Bucuresti',
+      googleRating: {
+        source: 'Google',
+        starsLabel: 'stele',
+        reviewsLabel: 'recenzii',
+      },
+      googleReviews: {
+        kicker: 'Recenzii Google',
+        title: 'Ce spun clientii despre ZBX Installations',
+        fiveStarLabel: 'recenzii cu 5 stele pe Google',
+        reviewCountLabel: 'recenzii pe Google',
+        viewOnGoogle: 'Vezi toate recenziile pe Google',
+        verifiedLabel: 'Recenzie Google · 5 stele',
+        gridAria: '{count} recenzii cu 5 stele pe Google',
+        emptyText:
+          'Recenziile Google sunt disponibile pe profilul nostru Maps. Apasa butonul de mai jos pentru a le citi sau a lasa o recenzie.',
+      },
       newsKicker: 'Resurse utile',
       newsTitle: 'Noutati si recomandari tehnice de la ZBX',
       newsCta: 'Vezi mai multe articole',
@@ -115,7 +124,7 @@ export const translations = {
     servicesPage: {
       kicker: 'Ce facem',
       title: 'Servicii tehnice complete pentru locuinte si firme',
-      cta: 'Solicita o oferta',
+      cta: 'Sună acum',
     },
     aboutPage: {
       kicker: 'De ce ZBX Installations',
@@ -144,7 +153,7 @@ export const translations = {
           text: 'Intervenim sigur si eficient, cu verificari finale complete.',
         },
       ],
-      cta: 'Contacteaza-ne',
+      cta: 'Sună acum',
     },
     contactPage: {
       kicker: 'Contact',
@@ -199,13 +208,11 @@ export const translations = {
       home: 'Home',
       services: 'Services',
       about: 'About us',
-      contact: 'Contact',
-      cta: 'Request quote',
       phoneLabel: 'Call:',
     },
     footer: {
       line1: 'Authorized technical team for complete installations',
-      line2: 'Services · Projects · About us · Contact',
+      line2: 'Services · Projects · About us',
       line3: 'Phone: +40 741 064 138 · contact@zbxinstallations.com',
       line4: 'All rights reserved.',
     },
@@ -215,7 +222,7 @@ export const translations = {
       heroTitle: 'Safe installations, fast execution, real support',
       heroCopy:
         'ZBX Installations delivers complete solutions for heating, plumbing, gas, HVAC and electrical works for both residential and commercial spaces.',
-      heroCtaPrimary: 'Request free quote',
+      heroCtaPrimary: 'Call now: +40 741 064 138',
       heroCtaSecondary: 'View all services',
       badges: ['Fast interventions', 'Certified team', 'Over 25 years of experience'],
       introKicker: 'Proven technical expertise',
@@ -234,11 +241,22 @@ export const translations = {
       ],
       trustCta: 'Learn more about us',
       trustImageAlt: 'ZBX Installations team',
-      testimonialKicker: 'Client testimonial',
-      testimonialTitle: '“Fast intervention, professional team, flawless execution.”',
-      testimonialText:
-        '“We worked with ZBX Installations for a boiler replacement and plumbing upgrade. Everything was delivered on time with clear communication and excellent quality.”',
-      testimonialAuthor: '— ZBX Installations client, Bucharest',
+      googleRating: {
+        source: 'Google',
+        starsLabel: 'stars',
+        reviewsLabel: 'reviews',
+      },
+      googleReviews: {
+        kicker: 'Google reviews',
+        title: 'What clients say about ZBX Installations',
+        fiveStarLabel: 'five-star reviews on Google',
+        reviewCountLabel: 'Google reviews',
+        viewOnGoogle: 'See all reviews on Google',
+        verifiedLabel: 'Google review · 5 stars',
+        gridAria: '{count} five-star reviews on Google',
+        emptyText:
+          'Google reviews are available on our Maps profile. Use the button below to read them or leave your own review.',
+      },
       newsKicker: 'Useful resources',
       newsTitle: 'Technical news and recommendations from ZBX',
       newsCta: 'Read more articles',
@@ -309,7 +327,7 @@ export const translations = {
     servicesPage: {
       kicker: 'What we do',
       title: 'Complete technical services for homes and businesses',
-      cta: 'Request a quote',
+      cta: 'Call now',
     },
     aboutPage: {
       kicker: 'Why ZBX Installations',
@@ -338,7 +356,7 @@ export const translations = {
           text: 'We execute safely and efficiently, followed by full final checks.',
         },
       ],
-      cta: 'Contact us',
+      cta: 'Call now',
     },
     contactPage: {
       kicker: 'Contact',

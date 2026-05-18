@@ -31,9 +31,9 @@ function AboutPage({ t }) {
           ))}
         </div>
         <div className="page-actions">
-          <Link className="button button-ghost" to="/contact">
+          <a className="button button-ghost" href="tel:+40741064138">
             {about.cta}
-          </Link>
+          </a>
         </div>
       </section>
     </main>

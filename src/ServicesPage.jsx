@@ -17,9 +17,9 @@ function ServicesPage({ t }) {
           ))}
         </div>
         <div className="page-actions">
-          <Link className="button button-primary" to="/contact">
+          <a className="button button-primary" href="tel:+40741064138">
             {t.servicesPage.cta}
-          </Link>
+          </a>
         </div>
       </section>
     </main>
